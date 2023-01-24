@@ -1,0 +1,22 @@
+{
+    "name": "salamikola/laravel-ddscanner",
+    "description": "This package scans through laravel project and remove dd and ddd function",
+    "type": "library",
+    "require": {
+        "illuminate/support": "10.x-dev",
+        "illuminate/console": "10.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Salamikola\\LaravelDDScanner\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Salami Kolawole",
+            "email": "salamikolawole989@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
