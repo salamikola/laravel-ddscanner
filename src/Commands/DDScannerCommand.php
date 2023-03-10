@@ -47,7 +47,7 @@ class DDScannerCommand extends Command
     public function handle(): int
     {
         try {
-            $this->line('Starting DD Scanner');
+            $this->line('Starting DD Scanner...');
             $affectedFiles = $this->ddScannerService->handle($this->options());
             if ($this->option('s')) {
                 $commandTableArr = $this->convertFlatArrayToCommandTableArray($affectedFiles);
