@@ -1,6 +1,6 @@
 {
     "name": "salamikola/laravel-ddscanner",
-    "description": "This package scans through laravel project to remove or comment out dd/ddd function",
+    "description": "This package scans through laravel project to remove or comment out instances of dd/ddd function",
     "type": "library",
     "require": {
         "illuminate/console": "^8.0|^9.0|^10.0",
